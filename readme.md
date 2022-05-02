@@ -78,7 +78,6 @@ Dans le fichier "LeRougeEtLeNoir.txt" il y a `14445 mots` différents.
 - [x] readme.md
 - [x] script.sh
 
-
 ---
 
 Département informatique - IUT Montpellier Sète – S6

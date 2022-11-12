@@ -3,7 +3,7 @@
 
 **SAE HACHAGE** 🏷️
 
-Vous trouverez dans ce repository notre travail sur la SAE Hachage.
+Vous trouverez dans ce repository notre travail sur la SAE Hachage [1ère année].
 
 ---
 ### Sommaire 📁

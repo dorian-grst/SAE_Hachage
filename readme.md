@@ -3,69 +3,68 @@
 
 **SAE HACHAGE** 🏷️
 
-Vous trouverez dans ce repository notre travail sur la SAE Hachage [1ère année].
+In this repository, you will find our work on Hashing SAE [1st year].
 
 ---
-### Sommaire 📁
-1. [Compilation du code & lancement des tests](#compilation-du-code--lancement-des-tests-)
-2. [Réponses aux questions](#réponses-aux-questions-)
-3. [Fichiers](#fichiers-)
+### Table of contents 📁
+1. [Code compilation & test launch](#code-compilation--test-launch-)
+2. [Answers to questions](#answers-to-questions-)
+3. [Files](#files-)
 
 ---
-## Compilation du code & lancement des tests 📂
+## Code compilation & test launch 📂
 
->**Étape 1:**
+>**Step 1:**
 
-Télécharger les fichiers .java présent dans le repository ainsi que le script "script.sh" et mettez tout dans le même dossier.
+Download the .java files in this repository, as well as the "script.sh" script and place them all in the same folder.
 
->**Étape 2:**
+>**Step 2:**
 
-Donner la permission d'exécuter le script dans le terminal avec la commande :
+Give execute permission to the script in the terminal using the command :
 `chmod a+x script.sh`
 
->**Étape 3:**
+>**Step 3:**
 
-Placer vous dans le dossier et lancer le script dans le terminal à l'aide de la commande :
+Navigate to the folder and run the script in the terminal using the command :
 `./script.sh`
 
-**Voilà ! Vos fichiers .java sont compilés et les tests sont affichés**
+**Your .java files are compiled and the tests are displayed**
 
 ---
-## Réponses aux questions 📂
+## Answers to questions 📂
 
 >**Question 1:**
 
-Sachant que |S| est le nombre de mots différents du texte et U l'ensemble de toutes les chaînes d'au plus 30 caractères et qu'il y a 256 caractères possibles
+Knowing that |S| is the number of different words in the text and U is the set of all strings of at most 30 characters and there are 256 possible characters :
 
 `|U| = 256^30`
 
-Lorsqu’on a au plus 32 caractères :
+When we have at most 32 characters :
 
 `|U| = 32^30`
 
 >**Question 2:**
 
-Supposons que U = [0,x], une des structures de donnée très simple respectant : 
-- la propriété p2 = on voudrait que les opérations de base (insertion, suppression, recherche) soient très rapides, au sens où elles n’exécutent que très peu d’opérations (par exemple un nombre constant, c’est-à-dire borné par une certaine constante, ou logarithmique en |T|).
+Assuming that U = [0,x], one of the very simple data structures respecting :
+- property p2 = we want the basic operations (insertion, deletion, search) to be very fast, in the sense that they execute very few operations (for example a constant number, that is bounded by a certain constant, or logarithmic in |T|).
 
-Est `le tableau de booléens`, qui lorsque la valeur sera présente dans le tableau renverra true, false sinon.
+Is the boolean array, which when the value is present in the array will return true, false otherwise.
 
 >**Question 3:**
 
-On sait qu'un *octet* permet de représenter 2⁸ valeurs soit *256 valeurs différentes*.
-Si on possède X possibilités de chaîne de caractères différentes, pour savoir combien il faut d'octets, on fait le calcul : X / (nombre de valeurs différentes pour 1 octet)
-On obtient `256^32 / 256` qui est égal au *nombre d'octets* nécessaire pour stocker un élément de u.
+We know that a byte can represent 2⁸ values, which is 256 different values. If we have X possibilities of different character strings, to know how many bytes are needed, we calculate: X / (number of different values for 1 byte). We get `256^32 / 256 which is equal to the number of bytes needed to store an element of u.
 
 >**Question 18:**
 
-On doit trouver un nombre de multiplications pour convertir une chaîne s(k). Pour cela on calculera chaque terme (xi256^i) indépendamment. Pour un mot de taille k, on fait le calcul : `k*(k+1)/2` et on trouvera un grand nombre de multiplications.
+We have to find a number of multiplications to convert a string s(k). To do this, we will calculate each term (xi256^i) independently. For a word of size k, we calculate: `k*(k+1)/2 and we get a large number of multiplications.
 
 >**Question 27:**
 
-Dans le fichier "LeRougeEtLeNoir.txt" il y a `14445 mots` différents.
+In the file "LeRougeEtLeNoir.txt" there are `14445 different words`.
+
 
 ---
-## Fichiers 📂
+## Files 📂
 
 - [x] Dictionnaires.java 
 - [x] HTNaive.java

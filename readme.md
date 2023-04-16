@@ -48,15 +48,15 @@ When we have at most 32 characters :
 Assuming that U = [0,x], one of the very simple data structures respecting :
 - property p2 = we want the basic operations (insertion, deletion, search) to be very fast, in the sense that they execute very few operations (for example a constant number, that is bounded by a certain constant, or logarithmic in |T|).
 
-Is the boolean array, which when the value is present in the array will return true, false otherwise.
+Is the `boolean array`, which when the value is present in the array will return true, false otherwise.
 
 >**Question 3:**
 
-We know that a byte can represent 2⁸ values, which is 256 different values. If we have X possibilities of different character strings, to know how many bytes are needed, we calculate: X / (number of different values for 1 byte). We get `256^32 / 256 which is equal to the number of bytes needed to store an element of u.
+We know that a byte can represent 2⁸ values, which is 256 different values. If we have X possibilities of different character strings, to know how many bytes are needed, we calculate: X / (number of different values for 1 byte). We get `256^32 / 256` which is equal to the *number of bytes* needed to store an element of u.
 
 >**Question 18:**
 
-We have to find a number of multiplications to convert a string s(k). To do this, we will calculate each term (xi256^i) independently. For a word of size k, we calculate: `k*(k+1)/2 and we get a large number of multiplications.
+We have to find a number of multiplications to convert a string s(k). To do this, we will calculate each term (xi256^i) independently. For a word of size k, we calculate: `k*(k+1)/2` and we get a large number of multiplications.
 
 >**Question 27:**
 
